@@ -17,6 +17,5 @@ class String
   def count_sentences
     self.split(/[\.,!,?]/).compact.reject{ |item| item.nil? || item == '' }.count
     
- #   arr.reject { |item| item.nil? || item == '' }
   end
 end
