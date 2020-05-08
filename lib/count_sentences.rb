@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/[\.,...,,!!,!,?]/).compact.reject{ |item| item.nil? || item == '' }.count
+    self.split(/[\.!?]/).compact.reject{ |item| item.nil? || item == '' }.count
     
   end
 end
